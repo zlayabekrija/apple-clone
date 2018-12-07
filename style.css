@@ -105,7 +105,7 @@ input:focus {
 }
 
 .connect {
-    margin-top: -19px;
+    margin-top: -21px;
     width:980px; 
     height: 82px;
 }
@@ -118,13 +118,13 @@ input:focus {
 .img-in-css:hover {
     /* margin-top: -32px; */
     height: 40px;
-    background: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png) 190px -35px no-repeat;
+    background: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png) 190px -29px no-repeat;
     background-size: 75%;
 }
 
 .img-in-css {
     height: 40px;
-    background: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png) 190px 6px no-repeat;
+    background: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png) 190px 4px no-repeat;
     background-size: 75%;
 }
 
