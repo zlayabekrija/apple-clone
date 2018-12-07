@@ -1,15 +1,16 @@
-
-body{
+body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
+
 .main-background {
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     width: 100%;
     height: 538px;
-    top:0;
+    top: 0;
     bottom: 0;
-    position: absolute;
+    position: relative;
 }
+
 .header {
     background: #707070;
     background: -o-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -o-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
@@ -19,16 +20,18 @@ body{
     display: block;
     width: 980px;
     height: 36px;
-    margin: 18px auto;
+    margin: 0 auto;
+    top: 30px;
     text-align: left;
     z-index: 9998;
     border-radius: 4px;
 }
-.container{
+
+.container {
     position: relative;
-    top:0;
-    
+    top: 0;
 }
+
 .link {
     width: 101px;
     float: left;
@@ -38,36 +41,55 @@ body{
     cursor: pointer;
     height: 36px;
 }
-.list{
-    padding-top:10px;
+
+.list {
+    padding-top: 10px;
     font-size: .9em;
     color: #fff;
     font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
+
 .apple {
     font-size: 1.5em;
     padding-top: 4px;
 }
 
 .search {
-    width: 132px;
-    float:left;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    padding: 8px 12px;
+    z-index: 5;
+    background: url(http://images.apple.com/global/nav/images/globalsearch_bg.png) no-repeat 100% 0;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-input{
-    width: 100px;
+
+input {
+    width: 91%;
+    height: 18px;
+    border: 0;
+    padding-left: 25px;
+    color: white;
+    background: url(http://web.archive.org/web/20140301054859im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+    background-size: 85%;
 }
+
 .class-h1,
 .class-h2,
-.class-h3{
+.class-h3 {
     text-align: center;
 }
+
 .class-h1 {
     font-size: 24px;
     line-height: 36px;
 }
+
 .text {
     position: absolute;
     top: 50%;
@@ -75,4 +97,106 @@ input{
     margin-top: -170px;
     padding: 50px 0;
     right: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.connect {
+    margin-top: -19px;
+}
+
+.class-h3 {
+    height: 42px;
+    margin-top: 30px;
+}
+
+.img-in-css:hover {
+    /* margin-top: -32px; */
+    height: 40px;
+    background: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png) 190px -35px no-repeat;
+    background-size: 75%;
+}
+
+.img-in-css {
+    height: 40px;
+    background: url(https://web.archive.org/web/20140226220920im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png) 190px 0 no-repeat;
+    background-size: 75%;
+}
+
+.image-links {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    margin-top: 2px;
+}
+
+.img-bottom {
+    float: left;
+}
+
+.home {
+    margin: 0 auto;
+    width: 980px;
+    padding: 1em 0 2.6em;
+}
+
+.left {
+    float: left;
+    clear: both;
+    width: 49%;
+    padding-top: 20px;
+    text-align: left;
+    color: #6e6e6e;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+.top-left {
+    float: left;
+    clear: both;
+    text-align: left;
+    color: #6e6e6e;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.right {
+    float: right;
+    width: 51%;
+    padding-top: 20px;
+    text-align: right;
+    display: inline;
+}
+
+.li-right {
+    border-left: 1px solid #ccc;
+    float: left;
+    font-size: 10px;
+    margin-right: 5px;
+    padding-left: 5px;
+    color: #08c;
+}
+
+.li-bottom {
+    font-size: 10px;
+    margin-right: 5px;
+    padding-left: 5px;
+    display: inline;
+    float: left;
+}
+
+.no-width {
+    width: 25%;
+}
+
+.lefter {
+    float: left;
+    color: #08c;
+}
+
+.clr {
+    color: #08c;
 }
